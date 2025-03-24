@@ -30,3 +30,6 @@ Built with modern frontend technologies (e.g., React, Vue, or Angular), this UI 
 **Note:** This is a UI overview. For setup and development details, refer to the full documentation. 🚀
 
 output:
+![Image](https://github.com/user-attachments/assets/379128b4-9093-4c05-9083-1b387ab310a1)
+![Image](https://github.com/user-attachments/assets/8793f312-2246-4edd-aaab-52e13aa79ec9)
+![Image](https://github.com/user-attachments/assets/3018b2d4-8e02-4590-b740-37cdf231dbc5)
