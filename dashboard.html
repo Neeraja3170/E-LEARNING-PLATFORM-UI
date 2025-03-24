@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - LearnHub</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <h1>Learn<span>Hub</span></h1>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="dashboard.html" class="active">Dashboard</a></li>
+                    <li><a href="#" class="btn btn-login">Logout</a></li>
+                </ul>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="dashboard">
+        <div class="container">
+            <div class="dashboard-header">
+                <div class="user-profile">
+                    <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="User Profile">
+                    <div>
+                        <h2>Welcome back, Sarah!</h2>
+                        <p>Last login: Today at 10:30 AM</p>
+                    </div>
+                </div>
+                <div class="dashboard-stats">
+                    <div class="stat-card">
+                        <i class="fas fa-book-open"></i>
+                        <div>
+                            <h3>5</h3>
+                            <p>Active Courses</p>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-certificate"></i>
+                        <div>
+                            <h3>3</h3>
+                            <p>Certificates</p>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>27</h3>
+                            <p>Learning Hours</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="dashboard-content">
+                <div class="dashboard-section">
+                    <h2>My Courses</h2>
+                    <div class="course-progress-grid">
+                        <div class="course-progress-card">
+                            <img src="https://via.placeholder.com/300x200" alt="Course Thumbnail">
+                            <div class="course-progress-info">
+                                <h3>The Complete Web Developer Course</h3>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 65%;"></div>
+                                    <span>65% Complete</span>
+                                </div>
+                                <a href="course-detail.html" class="btn btn-small">Continue Learning</a>
+                            </div>
+                        </div>
+                        <!-- More enrolled courses would go here -->
+                    </div>
+                </div>
+                <div class="dashboard-section">
+                    <h2>Recommended Courses</h2>
+                    <div class="course-grid">
+                        <!-- Recommended courses would go here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <!-- Same footer as index.html -->
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
